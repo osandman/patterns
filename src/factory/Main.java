@@ -8,7 +8,7 @@ public class Main {
         GroupsFactory groupsFactory = new GroupsFactory();
         List<MusicGroup> groups = new ArrayList<>();
 
-        MusicGroup discoGroup = groupsFactory.createGroup("Abba", MusicStyle.DISCO);
+        MusicGroup discoGroup = groupsFactory.createGroup("Boney M", MusicStyle.DISCO);
         MusicGroup trashGroup = groupsFactory.createGroup("Metallica", MusicStyle.TRASH_METAL);
         MusicGroup jazzGroup = groupsFactory.createGroup("Miles Davis", MusicStyle.JAZZ);
 
