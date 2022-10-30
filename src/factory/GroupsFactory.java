@@ -7,15 +7,13 @@ public class GroupsFactory {
             case DISCO:
                 resultGroup = new DiscoGroup(name, style);
                 break;
-            case HARDROCK:
-                resultGroup = new HardRockGroup(name, style);
-                break;
             case JAZZ:
                 resultGroup = new JazzGroup(name, style);
                 break;
             case TRASH_METAL:
                 resultGroup = new TrashGroup(name, style);
                 break;
+
             default:
                 throw new RuntimeException(style + " group not found");
         }
