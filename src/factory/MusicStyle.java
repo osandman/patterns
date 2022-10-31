@@ -2,7 +2,7 @@ package factory;
 
 public enum MusicStyle {
     UNKNOWN("Unknown style"),
-    TRASH_METAL("Trash-metal"),
+    THRASH_METAL("Thrash-metal"),
     HARDROCK("Hard-rock"),
     JAZZ("Jazz"),
     CLASSIC("Classic"),

@@ -10,8 +10,8 @@ public class GroupsFactory {
             case JAZZ:
                 resultGroup = new JazzGroup(name, style);
                 break;
-            case TRASH_METAL:
-                resultGroup = new TrashGroup(name, style);
+            case THRASH_METAL:
+                resultGroup = new ThrashGroup(name, style);
                 break;
 
             default:

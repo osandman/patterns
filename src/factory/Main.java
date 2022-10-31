@@ -9,7 +9,7 @@ public class Main {
         List<MusicGroup> groups = new ArrayList<>();
 
         MusicGroup discoGroup = groupsFactory.createGroup("Boney M", MusicStyle.DISCO);
-        MusicGroup trashGroup = groupsFactory.createGroup("Metallica", MusicStyle.TRASH_METAL);
+        MusicGroup trashGroup = groupsFactory.createGroup("Metallica", MusicStyle.THRASH_METAL);
         MusicGroup jazzGroup = groupsFactory.createGroup("Miles Davis", MusicStyle.JAZZ);
 
         groups.add(discoGroup);
