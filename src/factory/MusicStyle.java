@@ -8,10 +8,10 @@ public enum MusicStyle {
     CLASSIC("Classic"),
     POP("Pop"),
     DISCO("Disco");
-    public final String style;
+    private final String style;
+
     MusicStyle(String style) {
         this.style = style;
-        //System.out.println(style);
     }
 
     @Override
